@@ -29,7 +29,7 @@ pytz==2025.2
 
 # HTTP requests (for CoinGecko API)
 requests==2.32.5
-urllib3==2.5.0
+urllib3==2.6.3
 
 # Parquet engine — only needed to (re)build and read the Binance daily-kline
 # cache behind the c11 returns-leg smoke test (code/fetch_binance_cache.py).
