@@ -1,0 +1,22 @@
+# C13 rung-4 diagnostic: reference- and dependence-input sensitivity
+# mean_d=1.458222 se_naive=0.287001 N=6 multiplier=3.4879
+# rho_return=0.688208 rho_resid=0.704640 rho_d_bar=0.310763
+# DEFF_cov(retained-draw covariance ratio)=1.994099  B_used=2000 dropped=0
+# one-rescue parity: rescue_draws=127 asset_attempts=131 asset_successes=131
+# c13_analysis_sha256=b1c874df5a7556e3c07d4028840b9f0ef45dec364bf807eae5c9cfdbfa6dfbbe
+# c13_source_sha256=bee2db1c7f6311804a8f41befe26918ed9249df42402079bbf929b285ec9be8d
+# c13_downstream_analysis_stack_sha256=6f953ff00da72e1a5c31687f82014895bde8de96dede0d78a201de5658baaa27
+# source_c10_archive_sha256=a68ce26be57295452f9f1ef73dd04507133fef8834838d606657632c64edebc2
+
+# rung-4 dispersion statistic under alternative rho inputs and references
+rho,DEFF,N_eff,df_eff,se_de,t_dispersion,p_t_dfeff_dispersion,p_t_N1_dispersion,p_norm_dispersion,rho_label
+0.688208467039957,4.441042335199785,1.351034182323345,1.1258618186027876,0.6048187616627985,2.411006320373244,0.11365285873200577,0.03039424072981858,0.00795428637602458,rho_return (c6 legacy input)
+0.7046396791666949,4.523198395833474,1.326494987601445,1.1054124896678708,0.610387479480087,2.389010105992677,0.11642633509578383,0.03123209068758311,0.008446918824678849,rho_resid (standardized-residual sensitivity)
+0.3107632927715597,2.5538164638577983,2.3494249038305566,1.9578540865254639,0.4586460306573069,3.1794058153288285,0.04435495907510298,0.012277282888679502,0.000737886601253267,rho_d_bar (fitted-null estimator-difference sensitivity)
+
+# #MC: fitted-DGP rejection rates on c10 draws under each reference
+crit_label,crit_005,crit_010,size_005,size_010,n_panels
+normal z (size study's z=1.645),1.6448536269514729,1.2815515655446004,0.54,0.674,1000
+t(N-1=5) [c10 saved rule],2.0150483733330233,1.4758840488558214,0.37,0.618,1000
+"t(df_eff=1.13) [sensitivity, rho_return]",5.2411847062641295,2.7360740427558317,0.009,0.17,1000
+"t(df_eff=1.96) [sensitivity, rho_d_bar]",2.9633068839050165,1.903630174170003,0.127,0.422,1000

@@ -1,0 +1,9 @@
+spec,n
+uncontrolled raw p<0.05 (of 18),10
+baseline BH-FDR q<0.05 survivors,7
+TOTAL event-ctrl raw p<0.05 (of 18),8
+TOTAL event-ctrl: FDR-7 retained,7
+TOTAL event-ctrl BH-FDR q<0.05 (of 18),7
+SPLIT event-ctrl raw p<0.05 (of 18),8
+SPLIT event-ctrl: FDR-7 retained,7
+SPLIT event-ctrl BH-FDR q<0.05 (of 18),7

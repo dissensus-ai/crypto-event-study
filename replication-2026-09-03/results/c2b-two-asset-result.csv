@@ -1,0 +1,2 @@
+spec,n_infra_events,n_reg_events,mean_infra_coef,mean_reg_coef,multiplier,cohens_d,welch_t,welch_p
+S2_twoasset,53,41,2.8629540877356168,1.8086549525577942,1.5829188888056487,0.8273139988427133,1.4329498798085587,0.18287049123853413

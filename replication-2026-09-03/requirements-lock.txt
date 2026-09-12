@@ -1,0 +1,36 @@
+# Exact runtime environment used for the final reproduction pass.
+# Tested with CPython 3.14.0 on Linux x86_64; Python itself is not installed
+# by this file. Development, documentation, and optional acceleration extras
+# (including numba, which was unavailable on this Python version) are omitted.
+#
+# ruptures 1.1.9 was tested from the local platform wheel
+# ruptures-1.1.9-cp314-cp314-linux_x86_64.whl
+# SHA256: f7790d7ff278ec7ac746fe4516349f8aca1378ecb3244346ae43e4d84272a69a
+# The version pin below is portable, but another CPython 3.14 system may need
+# to build ruptures from source if a compatible binary wheel is unavailable.
+
+# Direct project requirements
+arch==8.0.0
+matplotlib==3.10.7
+numpy==2.3.5
+pandas==2.3.3
+pyarrow==22.0.0
+python-dotenv==1.2.1
+ruptures==1.1.9
+scipy==1.16.3
+seaborn==0.13.2
+statsmodels==0.14.6
+
+# Transitive runtime requirements
+contourpy==1.3.3
+cycler==0.12.1
+fonttools==4.61.0
+kiwisolver==1.4.9
+packaging==25.0
+patsy==1.0.2
+pillow==12.0.0
+pyparsing==3.2.5
+python-dateutil==2.9.0.post0
+pytz==2025.2
+six==1.17.0
+tzdata==2025.2

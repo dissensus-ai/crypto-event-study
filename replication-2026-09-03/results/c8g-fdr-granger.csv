@@ -1,0 +1,9 @@
+family,q,n_tests,n_raw_sig_0.05,n_survive_fdr
+daily_ffill_sent_to_vol,0.05,18,0,0
+daily_ffill_sent_to_vol,0.1,18,0,0
+daily_ffill_BOTH_directions,0.05,36,4,1
+daily_ffill_BOTH_directions,0.1,36,4,1
+weekly_sent_to_vol,0.05,18,10,7
+weekly_sent_to_vol,0.1,18,10,12
+weekly_BOTH_directions,0.05,36,11,6
+weekly_BOTH_directions,0.1,36,11,7

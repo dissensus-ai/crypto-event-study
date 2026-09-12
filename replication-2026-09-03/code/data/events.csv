@@ -1,0 +1,51 @@
+event_id,date,label,title,type
+1,2019-01-31,QuadrigaCX,QuadrigaCX exchange collapses,Infrastructure
+2,2019-04-03,SEC FinHub,US SEC issues FinHub digital asset framework,Regulatory
+3,2019-05-07,Binance hack '19,"Binance hack (~7,000 BTC stolen)",Infrastructure
+4,2019-06-18,Libra announced,Facebook announces Libra (later Diem),Regulatory
+5,2019-08-05,LTC halving '19,Litecoin second halving,Infrastructure
+6,2019-10-24,China blockchain,China endorses blockchain as core technology,Regulatory
+7,2020-03-12,Black Thursday,Black Thursday crash & exchange outages,Infrastructure
+8,2020-05-11,BTC halving '20,Bitcoin third halving (12.5 → 6.25 BTC),Infrastructure
+9,2020-06-15,COMP/DeFi '20,COMP launch catalyzes DeFi summer,Infrastructure
+10,2020-09-01,BSC launch,Binance Smart Chain (BSC) mainnet launch,Infrastructure
+11,2020-12-01,ETH2 Beacon,Ethereum 2.0 Beacon Chain genesis (PoS phase 0),Infrastructure
+12,2020-12-22,SEC v Ripple,SEC sues Ripple over XRP sales,Regulatory
+13,2021-02-08,Tesla buys BTC,Tesla buys $1.5B in BTC for treasury,Infrastructure
+14,2021-04-14,Coinbase listing,Coinbase direct listing on Nasdaq,Infrastructure
+15,2021-05-21,China mining ban,China mining crackdown announcement,Regulatory
+16,2021-06-09,SV BTC legal,El Salvador passes Bitcoin legal tender law,Regulatory
+17,2021-08-05,ETH EIP-1559,Ethereum London hard fork (EIP-1559) activates,Infrastructure
+18,2021-08-10,Poly hack $611m,Poly Network cross-chain hack (~$611M),Infrastructure
+19,2021-09-24,China crypto ban,China issues total ban on crypto transactions,Regulatory
+20,2021-10-19,BITO ETF,First US Bitcoin futures ETF (BITO) launches,Regulatory
+21,2021-11-14,BTC Taproot,"Bitcoin Taproot soft fork activates, enabling Schnorr signatures and MAST",Infrastructure
+22,2022-01-05,Kazakh net off,Kazakhstan internet shutdown hits BTC hash rate,Infrastructure
+23,2022-03-09,US crypto EO,US Executive Order on Digital Assets,Regulatory
+24,2022-05-09,Terra/UST crash,Terra/UST collapse triggers market contagion,Infrastructure
+25,2022-06-13,Celsius freeze,Celsius freezes withdrawals; credit crisis unfolds,Infrastructure
+26,2022-09-15,ETH Merge,Ethereum Merge: full transition to proof-of-stake,Infrastructure
+27,2022-10-06,BNB bridge hack,BNB Chain bridge exploit (~$570M),Infrastructure
+28,2022-11-11,FTX bankrupt,FTX files for bankruptcy; fraud revelations,Infrastructure
+29,2023-03-10,USDC depeg (SVB),SVB collapse; USDC briefly depegs,Infrastructure
+30,2023-04-12,ETH Shanghai,Ethereum Shanghai (Shapella) enables withdrawals,Infrastructure
+31,2023-06-05,SEC v Binance,SEC sues Binance (unregistered securities),Regulatory
+32,2023-06-06,SEC v Coinbase,SEC sues Coinbase (unregistered securities),Regulatory
+33,2023-06-15,BlackRock BTC ETF,BlackRock files for US spot Bitcoin ETF,Regulatory
+34,2023-08-29,Grayscale win,Grayscale wins court case vs SEC (spot BTC ETF),Regulatory
+35,2023-04-20,EU MiCA passed,EU Parliament final passage of MiCA,Regulatory
+36,2023-11-21,Binance/CZ $4.3B,Binance/CZ US$4.3B DOJ settlement,Regulatory
+37,2024-01-10,US spot BTC ETFs,SEC approves 11 US spot Bitcoin ETFs,Regulatory
+38,2024-03-13,ETH Dencun,Ethereum Dencun upgrade (EIP-4844 proto-danksharding),Infrastructure
+39,2024-04-20,BTC halving '24,Bitcoin fourth halving (6.25 → 3.125 BTC),Infrastructure
+40,2024-05-23,US spot ETH OK,SEC approves exchange listings for spot ETH ETFs (19b-4),Regulatory
+41,2024-06-30,MiCA phase 1,EU MiCA phase 1 (stablecoin regime) takes effect,Regulatory
+42,2024-07-23,ETH ETFs trade,US spot ETH ETFs begin trading,Infrastructure
+43,2025-02-21,Bybit hack '25,Bybit exchange hack (~$1.5B); FBI attributes to DPRK; largest exchange theft to date,Infrastructure
+44,2025-02-27,SEC drops Coinbase,SEC and Coinbase file joint stipulation to dismiss case,Regulatory
+45,2025-03-07,OCC IL 1183,"OCC Interpretive Letter 1183 reaffirms permissible bank crypto activities (custody, certain stablecoin ops) and rescinds prior limits",Regulatory
+46,2025-04-04,SEC stablecoins stmt,SEC staff clarify certain dollar‑backed payment stablecoins are not offered or sold as securities,Regulatory
+47,2025-05-07,ETH Pectra,Ethereum Pectra hard fork activated on mainnet ~10:00 UTC,Infrastructure
+48,2025-07-18,GENIUS Act signed,First U.S. federal stablecoin framework enacted into law,Regulatory
+49,2025-07-29,SEC in‑kind ETPs,SEC allows in‑kind creations/redemptions for crypto ETPs,Regulatory
+50,2025-08-07,XRP case ends,XRP litigation concludes; fine/injunction terms finalized; appeals withdrawn,Regulatory

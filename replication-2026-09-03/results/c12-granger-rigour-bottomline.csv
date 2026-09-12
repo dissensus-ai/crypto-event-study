@@ -1,0 +1,11 @@
+test,n_of_18,n_of_fdr7
+raw weekly p<0.05 (18 pairs),10.0,7.0
+BH-FDR q<0.05 (the 7 survivors),7.0,7.0
+Toda-Yamamoto p<0.05,10.0,7.0
+Toda-Yamamoto + BH-FDR q<0.05,9.0,
+BTC/market control p<0.05,10.0,7.0
+TY AND BTC-control p<0.05,9.0,7.0
+litigation pre-period p<0.05,,3.0
+litigation during-period p<0.05,,6.0
+litigation-controlled p<0.05,,7.0
+FULL GAUNTLET (TY+BTC+litig-ctrl),,7.0

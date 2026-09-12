@@ -1,0 +1,2067 @@
+{
+  "metadata": {
+    "generated": "2026-01-29T00:15:07.900936",
+    "source": "events.csv",
+    "criteria": {
+      "impact_threshold": 0.05,
+      "estimation_window_days": 250,
+      "gap_window_days": 30,
+      "event_window_pre": 5,
+      "event_window_post": 30,
+      "overlap_threshold_days": 30
+    },
+    "summary": {
+      "total_events": 50,
+      "infrastructure": 26,
+      "regulatory": 24,
+      "meets_impact_threshold": 34,
+      "independent": 27,
+      "has_estimation_data": 50,
+      "valid_for_analysis": 34
+    }
+  },
+  "overlapping_pairs": [
+    {
+      "event_1": 11,
+      "event_2": 12,
+      "days_apart": 21
+    },
+    {
+      "event_1": 15,
+      "event_2": 16,
+      "days_apart": 21
+    },
+    {
+      "event_1": 17,
+      "event_2": 18,
+      "days_apart": 5
+    },
+    {
+      "event_1": 19,
+      "event_2": 20,
+      "days_apart": 25
+    },
+    {
+      "event_1": 20,
+      "event_2": 21,
+      "days_apart": 26
+    },
+    {
+      "event_1": 26,
+      "event_2": 27,
+      "days_apart": 21
+    },
+    {
+      "event_1": 31,
+      "event_2": 32,
+      "days_apart": 1
+    },
+    {
+      "event_1": 31,
+      "event_2": 33,
+      "days_apart": 10
+    },
+    {
+      "event_1": 32,
+      "event_2": 33,
+      "days_apart": 9
+    },
+    {
+      "event_1": 41,
+      "event_2": 42,
+      "days_apart": 23
+    },
+    {
+      "event_1": 43,
+      "event_2": 44,
+      "days_apart": 6
+    },
+    {
+      "event_1": 43,
+      "event_2": 45,
+      "days_apart": 14
+    },
+    {
+      "event_1": 44,
+      "event_2": 45,
+      "days_apart": 8
+    },
+    {
+      "event_1": 45,
+      "event_2": 46,
+      "days_apart": 28
+    },
+    {
+      "event_1": 48,
+      "event_2": 49,
+      "days_apart": 11
+    },
+    {
+      "event_1": 48,
+      "event_2": 50,
+      "days_apart": 21
+    },
+    {
+      "event_1": 49,
+      "event_2": 50,
+      "days_apart": 10
+    }
+  ],
+  "events": [
+    {
+      "event_id": 1,
+      "date": "2019-02-15",
+      "label": "QuadrigaCX",
+      "title": "QuadrigaCX exchange collapses",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": -0.005650994884299432,
+        "three_day_return": -0.002446794819149223,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 3610.062273063402,
+        "price_on_date": 3589.661829626318,
+        "price_after": 3601.2291913968643,
+        "validated_date": "2019-02-15"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": false,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2018-05-11",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2019-02-10",
+        "window_end": "2019-03-17"
+      },
+      "added_date": "2026-01-29T00:15:07.893664",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 2,
+      "date": "2019-04-03",
+      "label": "SEC FinHub",
+      "title": "US SEC issues FinHub digital asset framework",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": 0.17266109881059233,
+        "three_day_return": 0.1952356595618725,
+        "meets_threshold_strict": true,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": true,
+        "price_before": 4146.321927706636,
+        "price_on_date": 4862.230427766917,
+        "price_after": 4955.831824018296,
+        "validated_date": "2019-04-03"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": false,
+      "meets_auto_threshold": true,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2018-06-27",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2019-03-29",
+        "window_end": "2019-05-03"
+      },
+      "added_date": "2026-01-29T00:15:07.893835",
+      "notes": "",
+      "type_detailed": "Regulatory",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 3,
+      "date": "2019-05-07",
+      "label": "Binance hack '19",
+      "title": "Binance hack (~7,000 BTC stolen)",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": -0.005838363914779876,
+        "three_day_return": 0.015954918233197946,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 5749.323780460327,
+        "price_on_date": 5715.7571359661015,
+        "price_after": 5841.053771273751,
+        "validated_date": "2019-05-07"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": false,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2018-07-31",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2019-05-02",
+        "window_end": "2019-06-06"
+      },
+      "added_date": "2026-01-29T00:15:07.893990",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 4,
+      "date": "2019-06-18",
+      "label": "Libra announced",
+      "title": "Facebook announces Libra (later Diem)",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": 0.037209507617497195,
+        "three_day_return": 0.012835736415553356,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": false,
+        "price_before": 8978.77258780693,
+        "price_on_date": 9312.868294808708,
+        "price_after": 9094.021746079216,
+        "validated_date": "2019-06-18"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2018-09-11",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2019-06-13",
+        "window_end": "2019-07-18"
+      },
+      "added_date": "2026-01-29T00:15:07.894137",
+      "notes": "",
+      "type_detailed": "Regulatory",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 5,
+      "date": "2019-08-05",
+      "label": "LTC halving '19",
+      "title": "Litecoin second halving",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": 0.014863342714911854,
+        "three_day_return": 0.09520025188136949,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": true,
+        "price_before": 10791.200523159,
+        "price_on_date": 10951.593834840049,
+        "price_after": 11818.525531066103,
+        "validated_date": "2019-08-05"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": false,
+      "meets_auto_threshold": true,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2018-10-29",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2019-07-31",
+        "window_end": "2019-09-04"
+      },
+      "added_date": "2026-01-29T00:15:07.894284",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 6,
+      "date": "2019-10-24",
+      "label": "China blockchain",
+      "title": "China endorses blockchain as core technology",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": -0.0716893250485211,
+        "three_day_return": -0.07599211195671485,
+        "meets_threshold_strict": true,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": true,
+        "price_before": 8045.294246807262,
+        "price_on_date": 7468.5325324369,
+        "price_after": 7433.915345679171,
+        "validated_date": "2019-10-24"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": false,
+      "meets_auto_threshold": true,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2019-01-17",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2019-10-19",
+        "window_end": "2019-11-23"
+      },
+      "added_date": "2026-01-29T00:15:07.894435",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 7,
+      "date": "2020-03-12",
+      "label": "Black Thursday",
+      "title": "Black Thursday crash & exchange outages",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": 0.003641265870239385,
+        "three_day_return": -0.349542799009506,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": true,
+        "price_before": 7906.731528510632,
+        "price_on_date": 7935.522040170545,
+        "price_after": 5142.990459018316,
+        "validated_date": "2020-03-12"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": true,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2019-06-06",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2020-03-07",
+        "window_end": "2020-04-11"
+      },
+      "added_date": "2026-01-29T00:15:07.894582",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 8,
+      "date": "2020-05-11",
+      "label": "BTC halving '20",
+      "title": "Bitcoin third halving (12.5 \u2192 6.25 BTC)",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": -0.08510285998391842,
+        "three_day_return": -0.10055900512376204,
+        "meets_threshold_strict": true,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": true,
+        "price_before": 9566.777187205966,
+        "price_on_date": 8752.617087745832,
+        "price_after": 8604.75159101983,
+        "validated_date": "2020-05-11"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": false,
+      "meets_auto_threshold": true,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2019-08-05",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2020-05-06",
+        "window_end": "2020-06-10"
+      },
+      "added_date": "2026-01-29T00:15:07.894725",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 9,
+      "date": "2020-06-15",
+      "label": "COMP/DeFi '20",
+      "title": "COMP launch catalyzes DeFi summer",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": -0.013043232975243901,
+        "three_day_return": -0.003986936986171807,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 9469.473456163696,
+        "price_on_date": 9345.960907722065,
+        "price_after": 9431.719262201745,
+        "validated_date": "2020-06-15"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2019-09-09",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2020-06-10",
+        "window_end": "2020-07-15"
+      },
+      "added_date": "2026-01-29T00:15:07.894871",
+      "notes": "",
+      "type_detailed": "Infrastructure",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 10,
+      "date": "2020-09-01",
+      "label": "BSC launch",
+      "title": "Binance Smart Chain (BSC) mainnet launch",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": -0.002451063489338434,
+        "three_day_return": 0.016598689868328798,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 11701.004008657852,
+        "price_on_date": 11672.324104943627,
+        "price_after": 11895.225345345636,
+        "validated_date": "2020-09-01"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2019-11-26",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2020-08-27",
+        "window_end": "2020-10-01"
+      },
+      "added_date": "2026-01-29T00:15:07.895014",
+      "notes": "",
+      "type_detailed": "Infrastructure",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 11,
+      "date": "2020-12-01",
+      "label": "ETH2 Beacon",
+      "title": "Ethereum 2.0 Beacon Chain genesis (PoS phase 0)",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": 0.0792278953029868,
+        "three_day_return": 0.03783516201516779,
+        "meets_threshold_strict": true,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": false,
+        "price_before": 18169.95420978285,
+        "price_on_date": 19609.52143957559,
+        "price_after": 18857.417371118165,
+        "validated_date": "2020-12-01"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": false,
+      "meets_auto_threshold": true,
+      "overlapping_events": [
+        {
+          "event_id": 12,
+          "days_apart": 21
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2020-02-25",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2020-11-26",
+        "window_end": "2020-12-31"
+      },
+      "added_date": "2026-01-29T00:15:07.895158",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 12,
+      "date": "2020-12-22",
+      "label": "SEC v Ripple",
+      "title": "SEC sues Ripple over XRP sales",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": -0.028799963553819197,
+        "three_day_return": 0.011755724926311606,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": false,
+        "price_before": 23518.31842054723,
+        "price_on_date": 22840.991707188357,
+        "price_after": 23794.79330262859,
+        "validated_date": "2020-12-22"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 11,
+          "days_apart": 21
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2020-03-17",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2020-12-17",
+        "window_end": "2021-01-21"
+      },
+      "added_date": "2026-01-29T00:15:07.895300",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 13,
+      "date": "2021-02-08",
+      "label": "Tesla buys BTC",
+      "title": "Tesla buys $1.5B in BTC for treasury",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": -0.01135639694797519,
+        "three_day_return": 0.17892734995959247,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": true,
+        "price_before": 39279.41286897885,
+        "price_on_date": 38833.34026455532,
+        "price_after": 46307.57412159395,
+        "validated_date": "2021-02-08"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": false,
+      "meets_auto_threshold": true,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2020-05-04",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2021-02-03",
+        "window_end": "2021-03-10"
+      },
+      "added_date": "2026-01-29T00:15:07.895447",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Exclude",
+      "include_in_reanalysis": false
+    },
+    {
+      "event_id": 14,
+      "date": "2021-04-14",
+      "label": "Coinbase listing",
+      "title": "Coinbase direct listing on Nasdaq",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": 0.061184994176450846,
+        "three_day_return": 0.04834006513310407,
+        "meets_threshold_strict": true,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": false,
+        "price_before": 59911.02059484732,
+        "price_on_date": 63576.67604104828,
+        "price_after": 62807.12323259299,
+        "validated_date": "2021-04-14"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": false,
+      "meets_auto_threshold": true,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2020-07-08",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2021-04-09",
+        "window_end": "2021-05-14"
+      },
+      "added_date": "2026-01-29T00:15:07.895596",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Exclude",
+      "include_in_reanalysis": false
+    },
+    {
+      "event_id": 15,
+      "date": "2021-05-19",
+      "label": "China mining ban",
+      "title": "China mining crackdown announcement",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": -0.015755393847344368,
+        "three_day_return": -0.14831685119524318,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": true,
+        "price_before": 43780.82559782485,
+        "price_on_date": 43091.04144756922,
+        "price_after": 37287.39140242737,
+        "validated_date": "2021-05-19"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": true,
+      "overlapping_events": [
+        {
+          "event_id": 16,
+          "days_apart": 21
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2020-08-12",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2021-05-14",
+        "window_end": "2021-06-18"
+      },
+      "added_date": "2026-01-29T00:15:07.895740",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 16,
+      "date": "2021-06-09",
+      "label": "SV BTC legal",
+      "title": "El Salvador passes Bitcoin legal tender law",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": 0.003161820683443173,
+        "three_day_return": 0.12263350371624049,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": true,
+        "price_before": 33451.38340714534,
+        "price_on_date": 33557.15068309184,
+        "price_after": 37553.64375851888,
+        "validated_date": "2021-06-09"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": false,
+      "meets_auto_threshold": true,
+      "overlapping_events": [
+        {
+          "event_id": 15,
+          "days_apart": 21
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2020-09-02",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2021-06-04",
+        "window_end": "2021-07-09"
+      },
+      "added_date": "2026-01-29T00:15:07.895883",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 17,
+      "date": "2021-08-05",
+      "label": "ETH EIP-1559",
+      "title": "Ethereum London hard fork (EIP-1559) activates",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": 0.03605133967143326,
+        "three_day_return": 0.06403787683213147,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": true,
+        "price_before": 38368.35401197897,
+        "price_on_date": 39751.58457509862,
+        "price_after": 40825.3819404497,
+        "validated_date": "2021-08-05"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": false,
+      "meets_auto_threshold": true,
+      "overlapping_events": [
+        {
+          "event_id": 18,
+          "days_apart": 5
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2020-10-29",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2021-07-31",
+        "window_end": "2021-09-04"
+      },
+      "added_date": "2026-01-29T00:15:07.896024",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 18,
+      "date": "2021-08-10",
+      "label": "Poly hack $611m",
+      "title": "Poly Network cross-chain hack (~$611M)",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": 0.058459335355862896,
+        "three_day_return": 0.043112169765030295,
+        "meets_threshold_strict": true,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": false,
+        "price_before": 43753.21786264632,
+        "price_on_date": 46311.00189857689,
+        "price_after": 45639.51401890709,
+        "validated_date": "2021-08-10"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": false,
+      "meets_auto_threshold": true,
+      "overlapping_events": [
+        {
+          "event_id": 17,
+          "days_apart": 5
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2020-11-03",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2021-08-05",
+        "window_end": "2021-09-09"
+      },
+      "added_date": "2026-01-29T00:15:07.896167",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 19,
+      "date": "2021-09-24",
+      "label": "China crypto ban",
+      "title": "China issues total ban on crypto transactions",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": 0.031974396776981884,
+        "three_day_return": -0.01915824954272538,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": false,
+        "price_before": 43587.22305058473,
+        "price_on_date": 44980.898214810935,
+        "price_after": 42752.1681545072,
+        "validated_date": "2021-09-24"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 20,
+          "days_apart": 25
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2020-12-18",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2021-09-19",
+        "window_end": "2021-10-24"
+      },
+      "added_date": "2026-01-29T00:15:07.896310",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 20,
+      "date": "2021-10-19",
+      "label": "BITO ETF",
+      "title": "First US Bitcoin futures ETF (BITO) launches",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": 0.007050530590506421,
+        "three_day_return": 0.0476403752044503,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 61583.77443961336,
+        "price_on_date": 62017.972725178704,
+        "price_after": 64517.64856042277,
+        "validated_date": "2021-10-19"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 19,
+          "days_apart": 25
+        },
+        {
+          "event_id": 21,
+          "days_apart": 26
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2021-01-12",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2021-10-14",
+        "window_end": "2021-11-18"
+      },
+      "added_date": "2026-01-29T00:15:07.896455",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 21,
+      "date": "2021-11-14",
+      "label": "BTC Taproot",
+      "title": "Bitcoin Taproot soft fork activates, enabling Schnorr signatures and MAST",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": 0.0035430723157328092,
+        "three_day_return": 0.018887027225204855,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 64432.04794734522,
+        "price_on_date": 64660.33535267343,
+        "price_after": 65648.97779110243,
+        "validated_date": "2021-11-14"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 20,
+          "days_apart": 26
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2021-02-07",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2021-11-09",
+        "window_end": "2021-12-14"
+      },
+      "added_date": "2026-01-29T00:15:07.896597",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Exclude",
+      "include_in_reanalysis": false
+    },
+    {
+      "event_id": 22,
+      "date": "2022-01-05",
+      "label": "Kazakh net off",
+      "title": "Kazakhstan internet shutdown hits BTC hash rate",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": -0.012746659072568889,
+        "three_day_return": -0.061979854762357456,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": true,
+        "price_before": 46531.140860530526,
+        "price_on_date": 45938.02427172366,
+        "price_after": 43647.14750806805,
+        "validated_date": "2022-01-05"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": false,
+      "meets_auto_threshold": true,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2021-03-31",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2021-12-31",
+        "window_end": "2022-02-04"
+      },
+      "added_date": "2026-01-29T00:15:07.896739",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Reg_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 23,
+      "date": "2022-03-09",
+      "label": "US crypto EO",
+      "title": "US Executive Order on Digital Assets",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": 0.017240116528726368,
+        "three_day_return": 0.10267596175684801,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": true,
+        "price_before": 38076.49382252028,
+        "price_on_date": 38732.93701302586,
+        "price_after": 41986.03444607623,
+        "validated_date": "2022-03-09"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": false,
+      "meets_auto_threshold": true,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2021-06-02",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2022-03-04",
+        "window_end": "2022-04-08"
+      },
+      "added_date": "2026-01-29T00:15:07.896881",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 24,
+      "date": "2022-05-09",
+      "label": "Terra/UST crash",
+      "title": "Terra/UST collapse triggers market contagion",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": -0.04225072091560644,
+        "three_day_return": -0.1490927668119879,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": true,
+        "price_before": 35573.31019883488,
+        "price_on_date": 34070.31219757961,
+        "price_after": 30269.58695662948,
+        "validated_date": "2022-05-09"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": true,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2021-08-02",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2022-05-04",
+        "window_end": "2022-06-08"
+      },
+      "added_date": "2026-01-29T00:15:07.897025",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 25,
+      "date": "2022-06-12",
+      "label": "Celsius freeze",
+      "title": "Celsius freezes withdrawals; credit crisis unfolds",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": -0.024986969853889707,
+        "three_day_return": -0.08020360691818185,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": true,
+        "price_before": 29101.2982596468,
+        "price_on_date": 28374.14499732395,
+        "price_after": 26767.269173221317,
+        "validated_date": "2022-06-12"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": true,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2021-09-05",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2022-06-07",
+        "window_end": "2022-07-12"
+      },
+      "added_date": "2026-01-29T00:15:07.897169",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 26,
+      "date": "2022-09-15",
+      "label": "ETH Merge",
+      "title": "Ethereum Merge: full transition to proof-of-stake",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": 0.0035152638446938056,
+        "three_day_return": -0.0239186712725028,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 20184.96749189655,
+        "price_on_date": 20255.922978327133,
+        "price_after": 19702.16988981172,
+        "validated_date": "2022-09-15"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 27,
+          "days_apart": 21
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2021-12-09",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2022-09-10",
+        "window_end": "2022-10-15"
+      },
+      "added_date": "2026-01-29T00:15:07.897315",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 27,
+      "date": "2022-10-06",
+      "label": "BNB bridge hack",
+      "title": "BNB Chain bridge exploit (~$570M)",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": -0.009022576035567997,
+        "three_day_return": -0.01948093954986596,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 20345.398520106643,
+        "price_on_date": 20161.830614985047,
+        "price_after": 19949.051041418512,
+        "validated_date": "2022-10-06"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 26,
+          "days_apart": 21
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2021-12-30",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2022-10-01",
+        "window_end": "2022-11-05"
+      },
+      "added_date": "2026-01-29T00:15:07.897460",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 28,
+      "date": "2022-11-11",
+      "label": "FTX bankrupt",
+      "title": "FTX files for bankruptcy; fraud revelations",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": 0.1176741759273725,
+        "three_day_return": 0.08497860281758451,
+        "meets_threshold_strict": true,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": true,
+        "price_before": 15742.444335961438,
+        "price_on_date": 17594.923500278233,
+        "price_after": 17080.215260565037,
+        "validated_date": "2022-11-11"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": true,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2022-02-04",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2022-11-06",
+        "window_end": "2022-12-11"
+      },
+      "added_date": "2026-01-29T00:15:07.897604",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 29,
+      "date": "2023-03-10",
+      "label": "USDC depeg (SVB)",
+      "title": "SVB collapse; USDC briefly depegs",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": -0.0615462006251255,
+        "three_day_return": -0.06988654817357576,
+        "meets_threshold_strict": true,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": true,
+        "price_before": 21712.65119391273,
+        "price_on_date": 20376.320007428807,
+        "price_after": 20195.2289502733,
+        "validated_date": "2023-03-10"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": true,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2022-06-03",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2023-03-05",
+        "window_end": "2023-04-09"
+      },
+      "added_date": "2026-01-29T00:15:07.897748",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 30,
+      "date": "2023-04-12",
+      "label": "ETH Shanghai",
+      "title": "Ethereum Shanghai (Shapella) enables withdrawals",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": 0.020330517848332397,
+        "three_day_return": 0.008300113713407331,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": false,
+        "price_before": 29657.97413687356,
+        "price_on_date": 30260.93610940865,
+        "price_after": 29904.138694718906,
+        "validated_date": "2023-04-12"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2022-07-06",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2023-04-07",
+        "window_end": "2023-05-12"
+      },
+      "added_date": "2026-01-29T00:15:07.897894",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 31,
+      "date": "2023-06-05",
+      "label": "SEC v Binance",
+      "title": "SEC sues Binance (unregistered securities)",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": 0.00920242525081072,
+        "three_day_return": -0.04706043609733446,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 27066.371328526235,
+        "price_on_date": 27315.447587487684,
+        "price_after": 25792.6160902334,
+        "validated_date": "2023-06-05"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 32,
+          "days_apart": 1
+        },
+        {
+          "event_id": 33,
+          "days_apart": 10
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2022-08-29",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2023-05-31",
+        "window_end": "2023-07-05"
+      },
+      "added_date": "2026-01-29T00:15:07.898039",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 32,
+      "date": "2023-06-06",
+      "label": "SEC v Coinbase",
+      "title": "SEC sues Coinbase (unregistered securities)",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": -0.05574982772575332,
+        "three_day_return": -0.003618173287236348,
+        "meets_threshold_strict": true,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": false,
+        "price_before": 27315.447587487684,
+        "price_on_date": 25792.6160902334,
+        "price_after": 27216.61556469773,
+        "validated_date": "2023-06-06"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": true,
+      "overlapping_events": [
+        {
+          "event_id": 31,
+          "days_apart": 1
+        },
+        {
+          "event_id": 33,
+          "days_apart": 9
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2022-08-30",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2023-06-01",
+        "window_end": "2023-07-06"
+      },
+      "added_date": "2026-01-29T00:15:07.898184",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 33,
+      "date": "2023-06-15",
+      "label": "BlackRock BTC ETF",
+      "title": "BlackRock files for US spot Bitcoin ETF",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": -0.02954721948945438,
+        "three_day_return": -0.01188947013073094,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": false,
+        "price_before": 25872.20645879509,
+        "price_on_date": 25107.754695880594,
+        "price_after": 25564.599632887144,
+        "validated_date": "2023-06-15"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 31,
+          "days_apart": 10
+        },
+        {
+          "event_id": 32,
+          "days_apart": 9
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2022-09-08",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2023-06-10",
+        "window_end": "2023-07-15"
+      },
+      "added_date": "2026-01-29T00:15:07.898385",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 34,
+      "date": "2023-08-29",
+      "label": "Grayscale win",
+      "title": "Grayscale wins court case vs SEC (spot BTC ETF)",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": 0.0010180168549442925,
+        "three_day_return": 0.06317541788411019,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": true,
+        "price_before": 26082.717178218525,
+        "price_on_date": 26109.2698239287,
+        "price_after": 27730.50373550554,
+        "validated_date": "2023-08-29"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": false,
+      "meets_auto_threshold": true,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2022-11-22",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2023-08-24",
+        "window_end": "2023-09-28"
+      },
+      "added_date": "2026-01-29T00:15:07.898601",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 35,
+      "date": "2023-10-01",
+      "label": "EU MiCA passed",
+      "title": "EU Parliament final passage of MiCA",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": 0.0019570031129796384,
+        "three_day_return": 0.03902008799218737,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 26917.199101637976,
+        "price_on_date": 26969.876144072576,
+        "price_after": 27967.510579087117,
+        "validated_date": "2023-10-01"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2022-12-25",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2023-09-26",
+        "window_end": "2023-10-31"
+      },
+      "added_date": "2026-01-29T00:15:07.898769",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 36,
+      "date": "2023-11-21",
+      "label": "Binance/CZ $4.3B",
+      "title": "Binance/CZ US$4.3B DOJ settlement",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": 0.0020127191358709773,
+        "three_day_return": -0.03871904784308822,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 37413.99460790531,
+        "price_on_date": 37489.298470802016,
+        "price_after": 35965.36036068078,
+        "validated_date": "2023-11-21"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": false,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2023-02-14",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2023-11-16",
+        "window_end": "2023-12-21"
+      },
+      "added_date": "2026-01-29T00:15:07.898914",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 37,
+      "date": "2024-01-10",
+      "label": "US spot BTC ETFs",
+      "title": "SEC approves 11 US spot Bitcoin ETFs",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": -0.017688686735049752,
+        "three_day_return": -0.006474160810775564,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 46936.18556121751,
+        "price_on_date": 46105.94607828697,
+        "price_after": 46632.31314804979,
+        "validated_date": "2024-01-10"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": false,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2023-04-05",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2024-01-05",
+        "window_end": "2024-02-09"
+      },
+      "added_date": "2026-01-29T00:15:07.899058",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 38,
+      "date": "2024-03-13",
+      "label": "ETH Dencun",
+      "title": "Ethereum Dencun upgrade (EIP-4844 proto-danksharding)",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": -0.009196928024741036,
+        "three_day_return": 0.013409213973193834,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 72130.55300765681,
+        "price_on_date": 71467.17350326062,
+        "price_after": 73097.76702694128,
+        "validated_date": "2024-03-13"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2023-06-07",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2024-03-08",
+        "window_end": "2024-04-12"
+      },
+      "added_date": "2026-01-29T00:15:07.899200",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 39,
+      "date": "2024-04-20",
+      "label": "BTC halving '24",
+      "title": "Bitcoin fourth halving (6.25 \u2192 3.125 BTC)",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": 0.00830779301760498,
+        "three_day_return": 0.022577844884360987,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 63461.59269510717,
+        "price_on_date": 63988.818471785664,
+        "price_after": 64894.41869109179,
+        "validated_date": "2024-04-20"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": false,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2023-07-15",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2024-04-15",
+        "window_end": "2024-05-20"
+      },
+      "added_date": "2026-01-29T00:15:07.899348",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 40,
+      "date": "2024-05-23",
+      "label": "US spot ETH OK",
+      "title": "SEC approves exchange listings for spot ETH ETFs (19b-4)",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": -0.014370100017646936,
+        "three_day_return": -0.0325313551219808,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 70189.8358177002,
+        "price_on_date": 69181.20085677762,
+        "price_after": 67906.46534276106,
+        "validated_date": "2024-05-23"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2023-08-17",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2024-05-18",
+        "window_end": "2024-06-22"
+      },
+      "added_date": "2026-01-29T00:15:07.899492",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 41,
+      "date": "2024-06-30",
+      "label": "MiCA phase 1",
+      "title": "EU MiCA phase 1 (stablecoin regime) takes effect",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": 0.009074478214188275,
+        "three_day_return": 0.040076478827008266,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 60317.09697945116,
+        "price_on_date": 60864.44316193428,
+        "price_after": 62734.39383945474,
+        "validated_date": "2024-06-30"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 42,
+          "days_apart": 23
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2023-09-24",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2024-06-25",
+        "window_end": "2024-07-30"
+      },
+      "added_date": "2026-01-29T00:15:07.899634",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 42,
+      "date": "2024-07-23",
+      "label": "ETH ETFs trade",
+      "title": "US spot ETH ETFs begin trading",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": -0.007055950776683417,
+        "three_day_return": -0.03151389506564928,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 68088.13996324532,
+        "price_on_date": 67607.71339918874,
+        "price_after": 65942.41746522837,
+        "validated_date": "2024-07-23"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 41,
+          "days_apart": 23
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2023-10-17",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2024-07-18",
+        "window_end": "2024-08-22"
+      },
+      "added_date": "2026-01-29T00:15:07.899775",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 43,
+      "date": "2025-02-21",
+      "label": "Bybit hack '25",
+      "title": "Bybit exchange hack (~$1.5B); FBI attributes to DPRK; largest exchange theft to date",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": 0.018947214057701167,
+        "three_day_return": -0.004346918417968415,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 96554.87156259285,
+        "price_on_date": 98384.31738240314,
+        "price_after": 96135.15541305284,
+        "validated_date": "2025-02-21"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": true,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 44,
+          "days_apart": 6
+        },
+        {
+          "event_id": 45,
+          "days_apart": 14
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2024-05-17",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2025-02-16",
+        "window_end": "2025-03-23"
+      },
+      "added_date": "2026-01-29T00:15:07.899916",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Negative",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 44,
+      "date": "2025-02-27",
+      "label": "SEC drops Coinbase",
+      "title": "SEC and Coinbase file joint stipulation to dismiss case",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": -0.05470804215649505,
+        "three_day_return": -0.04559280582553282,
+        "meets_threshold_strict": true,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": false,
+        "price_before": 88755.7693356979,
+        "price_on_date": 83900.11496524839,
+        "price_after": 84709.14477847965,
+        "validated_date": "2025-02-27"
+      },
+      "meets_impact_threshold": true,
+      "is_known_major_event": false,
+      "meets_auto_threshold": true,
+      "overlapping_events": [
+        {
+          "event_id": 43,
+          "days_apart": 6
+        },
+        {
+          "event_id": 45,
+          "days_apart": 8
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2024-05-23",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2025-02-22",
+        "window_end": "2025-03-29"
+      },
+      "added_date": "2026-01-29T00:15:07.900057",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 45,
+      "date": "2025-03-07",
+      "label": "OCC IL 1183",
+      "title": "OCC Interpretive Letter 1183 reaffirms permissible bank crypto activities (custody, certain stablecoin ops) and rescinds prior limits",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": -0.006651798711629242,
+        "three_day_return": -0.04228004928725959,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 90604.08098523636,
+        "price_on_date": 90001.40087607042,
+        "price_after": 86773.33597555371,
+        "validated_date": "2025-03-07"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 43,
+          "days_apart": 14
+        },
+        {
+          "event_id": 44,
+          "days_apart": 8
+        },
+        {
+          "event_id": 46,
+          "days_apart": 28
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2024-05-31",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2025-03-02",
+        "window_end": "2025-04-06"
+      },
+      "added_date": "2026-01-29T00:15:07.900197",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 46,
+      "date": "2025-04-04",
+      "label": "SEC stablecoins stmt",
+      "title": "SEC staff clarify certain dollar\u2011backed payment stablecoins are not offered or sold as securities",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": 0.0077255914482110555,
+        "three_day_return": 0.016062558714841746,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 82526.4221526433,
+        "price_on_date": 83163.98757387721,
+        "price_after": 83852.00765399594,
+        "validated_date": "2025-04-04"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 45,
+          "days_apart": 28
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2024-06-28",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2025-03-30",
+        "window_end": "2025-05-04"
+      },
+      "added_date": "2026-01-29T00:15:07.900355",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 47,
+      "date": "2025-05-07",
+      "label": "ETH Pectra",
+      "title": "Ethereum Pectra hard fork activated on mainnet ~10:00 UTC",
+      "type": "Infrastructure",
+      "impact_validation": {
+        "same_day_return": 0.022116233565811383,
+        "three_day_return": 0.02393096463544242,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": false,
+        "price_before": 94758.8237105546,
+        "price_on_date": 96854.53198815876,
+        "price_after": 97026.493769668,
+        "validated_date": "2025-05-07"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [],
+      "is_independent": true,
+      "estimation_window_start": "2024-07-31",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2025-05-02",
+        "window_end": "2025-06-06"
+      },
+      "added_date": "2026-01-29T00:15:07.900496",
+      "notes": "",
+      "type_original": "Infrastructure",
+      "type_detailed": "Infra_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 48,
+      "date": "2025-07-18",
+      "label": "GENIUS Act signed",
+      "title": "First U.S. federal stablecoin framework enacted into law",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": 0.005871269512696564,
+        "three_day_return": -0.006393497589519348,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 118748.1627367753,
+        "price_on_date": 119445.36520434044,
+        "price_after": 117988.94664455787,
+        "validated_date": "2025-07-18"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 49,
+          "days_apart": 11
+        },
+        {
+          "event_id": 50,
+          "days_apart": 21
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2024-10-11",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2025-07-13",
+        "window_end": "2025-08-17"
+      },
+      "added_date": "2026-01-29T00:15:07.900636",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 49,
+      "date": "2025-07-29",
+      "label": "SEC in\u2011kind ETPs",
+      "title": "SEC allows in\u2011kind creations/redemptions for crypto ETPs",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": -0.011854169388334723,
+        "three_day_return": -0.013110193935463532,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": false,
+        "meets_threshold_3day": false,
+        "price_before": 119418.91405141471,
+        "price_on_date": 118003.30201607826,
+        "price_after": 117853.30892863822,
+        "validated_date": "2025-07-29"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 48,
+          "days_apart": 11
+        },
+        {
+          "event_id": 50,
+          "days_apart": 10
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2024-10-22",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2025-07-24",
+        "window_end": "2025-08-28"
+      },
+      "added_date": "2026-01-29T00:15:07.900776",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    },
+    {
+      "event_id": 50,
+      "date": "2025-08-08",
+      "label": "XRP case ends",
+      "title": "XRP litigation concludes; fine/injunction terms finalized; appeals withdrawn",
+      "type": "Regulatory",
+      "impact_validation": {
+        "same_day_return": 0.021225302201597573,
+        "three_day_return": 0.014486528457176018,
+        "meets_threshold_strict": false,
+        "meets_threshold_relaxed": true,
+        "meets_threshold_3day": false,
+        "price_before": 115022.09576830892,
+        "price_on_date": 117463.47451085236,
+        "price_after": 116688.36663186055,
+        "validated_date": "2025-08-08"
+      },
+      "meets_impact_threshold": false,
+      "is_known_major_event": false,
+      "meets_auto_threshold": false,
+      "overlapping_events": [
+        {
+          "event_id": 48,
+          "days_apart": 21
+        },
+        {
+          "event_id": 49,
+          "days_apart": 10
+        }
+      ],
+      "is_independent": false,
+      "estimation_window_start": "2024-11-01",
+      "has_sufficient_estimation_data": true,
+      "event_window": {
+        "pre_days": 5,
+        "post_days": 30,
+        "window_start": "2025-08-03",
+        "window_end": "2025-09-07"
+      },
+      "added_date": "2026-01-29T00:15:07.900916",
+      "notes": "",
+      "type_original": "Regulatory",
+      "type_detailed": "Reg_Positive",
+      "include_in_reanalysis": true
+    }
+  ]
+}
