@@ -5,6 +5,7 @@ authors:
   given-names: "Murad"
   orcid: "https://orcid.org/0009-0002-7164-8704"
 title: "Do Cryptocurrency Markets Differentiate Infrastructure from Regulatory Shocks? A Multi-Moment Event Study with Dependence-Robust Inference"
-version: 3.0.0
+version: 5.0.0
+date-released: 2026-09-28
 doi: 10.5281/zenodo.18099608
-url: "https://github.com/studiofarzulla/crypto-event-study"
+url: "https://github.com/dissensus-ai/crypto-event-study"
